@@ -1,7 +1,11 @@
 // 1-Choose the correct comparison operator to display "true", when: 5 is less than 7.
+<<<<<<< HEAD
 //answer :
 
 console.log (5 < 7) ;
+=======
+//answer : 5 < 7 ? true : false;
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c
 
 //2- Write a function named helloWorld that:
 //takes 1 argument, a language code (e.g. "fr", "es", "en")
@@ -9,6 +13,7 @@ console.log (5 < 7) ;
 //ex: helloWorld('fr') ==> 'Bonjour tout le monde'
 //    helloWorld('es') ==> 'Hola, Mundo'
 //    helloWorld('') ==> 'Hello, World'
+<<<<<<< HEAD
 function helloWorld (code) {
 	if (code === "fr") {
 		return 'Bonjour tout le monde' ;
@@ -33,3 +38,9 @@ function Reverse (array) {
 	}
 	return arr ;
 }
+=======
+
+
+//3- write a function to Reverse an array without use array.reverse() method:
+// ex: reverseArray([1,2,3]) ==> [3,2,1]
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c

@@ -6,6 +6,7 @@
 // mult(3); // => 6
 // mult(4); // => 24
 
+<<<<<<< HEAD
 // i used a for loop so the counter variable i declared keeps increasing by 1 and multply all integers from 1 up to n
 
 function mult (n) {
@@ -19,10 +20,13 @@ function mult (n) {
 	return total ;
 }
 
+=======
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c
 // 2- Use a while loop to build a single string with the numbers 1 through n
 // separated by the number next to the current number.
 //Have it return the new string.
 // eg= 1 2 2 3 3 4 4 5 5 6 6 ...
+<<<<<<< HEAD
 
 // i declared an array to put my values in it ... then i used join(' ') to transform it to a string with space between each two characters
 //i added two counter variables j and i ... j moves from index to index+2 ... and i the value assigned to each index 
@@ -39,3 +43,5 @@ function buildString (n) {
 	}
 	return arr.join(' ') ;
 }
+=======
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c

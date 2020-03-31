@@ -4,10 +4,13 @@
 //1. Write a JavaScript function to check whether an `input` is an array or not
 // ex isArray([1,2])=>true
 //    isArray(5)=>false
+<<<<<<< HEAD
 // i used the isArray method to determine whether the passed value is an Array or not
 function isArray(arr) {
 	return (Array.isArray(arr) );
 }
+=======
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c
 
 // **************** git status ****************
 // **************** git add fileName.js ****************
@@ -19,6 +22,7 @@ function isArray(arr) {
 //2-Write a JavaScript function to get the first n element of an array.
 //ex  first([1,2,3],1)=>[1]
 //    first([1,2,3,4]2)=>[1,2]
+<<<<<<< HEAD
 // i used a for loop for my new array to put every element in the passed array to my new array until i reach the index num-1
 function first (array,num) {
 	var arr = [] ;
@@ -27,6 +31,9 @@ function first (array,num) {
 	}
 	return arr ;
 }
+=======
+
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c
 
 // **************** git status ****************
 // **************** git add fileName.js ****************
@@ -37,11 +44,15 @@ function first (array,num) {
 
 //3- Write a JavaScript function to convert an object into a list of `[key, value]` pairs
 //ex: convert({name:'ahmed',age:20})=>[['name','ahmed'],['age', 20]]
+<<<<<<< HEAD
 // i used the Object.entries method to put every key and his value in a new array
 function convert(obj) {
 	var arr = Object.entries(obj)
 	return arr;
 }
+=======
+
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c
 // **************** git status ****************
 // **************** git add fileName.js ****************
 // **************** git status ****************

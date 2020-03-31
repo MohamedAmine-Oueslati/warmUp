@@ -7,6 +7,7 @@
 // array: [ 1, 2, 3, 4 ], sub:[ 2, 3, 4 ] => true
 // array: [ 2, 2, 2, 3, 4 ], sub:[ 2, 4, 3 ] => true
 // array: [ 2, 3, 3, "a" ],  sub:[ 3, 3, 3, "a" ] => false
+<<<<<<< HEAD
 
 // i used 2 loops 1 for array and 1 for sub to check if each element in sub is found in array ... if its found i delete it and i exit the loop with (break)
 // if the loop was not broken thats mean the element was not found in array so i return false ... otherwise i return true
@@ -25,3 +26,5 @@ function isSubset (array,sub) {
 	}
 	return true
 }
+=======
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c

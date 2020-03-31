@@ -2,6 +2,7 @@
 // -name of females in your class
 // -name of males in your class
 // -name of your class instructors
+<<<<<<< HEAD
 var femalesName = ["Ranoua", "Khaoula", "Reem", "Hiba", "Amal"];
 var malesName = ["Bassem", "Charaf", "Ahmed", "Moez", "Oussama", "Firas"]
 var classInstructors = ["Farouk", "Omar", "Hashem", "Seif", "Houda", "Dhia", "Insaf"]
@@ -21,3 +22,9 @@ function multiplyEven (array) {
 	}
 	return array ;
 }
+=======
+
+// 2-write a function that takes an array as an argument and returns the element that is located in the middle of that array.
+
+// 3-Change all the numbers in the array to be multiplied by two for even indexes.
+>>>>>>> f7116e6bad742d738191118e716e7a8f26aa143c
